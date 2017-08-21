@@ -10,5 +10,4 @@ func main() {
 	fmt.Printf("%f hm\n", measures/100)
 	fmt.Printf("%.0f cm\n", measures*100)
 	fmt.Printf("%.0f mm\n", measures*1000)
-
 }
