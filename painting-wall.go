@@ -8,8 +8,7 @@ import "fmt"
 // an area of ​​2 square meters.
 
 func main() {
-	var with float64
-	var height float64
+	var with, height float64
 	fmt.Print("Wall width: ")
 	fmt.Scanf("%f\n", &with)
 	fmt.Print("Wall height: ")
