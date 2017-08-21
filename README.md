@@ -1,2 +1,2 @@
 # examples-with-go
- Small examples with golang
+ Small examples with golang.
