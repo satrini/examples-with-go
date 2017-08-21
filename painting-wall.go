@@ -8,15 +8,15 @@ import "fmt"
 // an area of ​​2 square meters.
 
 func main() {
-	var with, height float64
+	var width, height float64
 	fmt.Print("Wall width: ")
-	fmt.Scanf("%f\n", &with)
+	fmt.Scanf("%f\n", &width)
 	fmt.Print("Wall height: ")
 	fmt.Scanf("%f\n", &height)
 
-	area := with * height
+	area := width * height
 	paint := area / 2
 
-	fmt.Printf("Wall dimension: %.1f x %.1f\nArea: %.1fm²\n", with, height, area)
-	fmt.Printf("Needs: %.1f liters of paint wall\n", paint)
+	fmt.Printf("Wall dimension: %.1f x %.1f\nArea: %.1fm²\n", width, height, area)
+	fmt.Printf("Needs: %.1f liters of paint\n", paint)
 }
