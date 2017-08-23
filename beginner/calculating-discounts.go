@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // Make an algorithm that reads the price of a product
-// and show its new price, with a 5% discount.
+// and show its new price, with 5% discount.
 
 func main() {
 	var price float64
